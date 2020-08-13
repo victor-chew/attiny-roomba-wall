@@ -26,7 +26,7 @@
 #define BUTTON_PIN        PB1
 #define LED_PIN           PB3
 #define VCC_THRESHOLD     2800  // Signal low battery when volage falls below this level (mV)
-#define AUTO_OFF_INTERVAL 5     // Turns off automatically after runnig for this time in minutes
+#define AUTO_OFF_INTERVAL 80    // Turns off automatically after runnig for this time in minutes
 
 volatile bool button_clicked = false, check_vcc = false;
 bool started = false, low_voltage = false;
